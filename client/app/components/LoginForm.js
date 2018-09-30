@@ -8,7 +8,7 @@ class LoginForm extends Component {
         <div className="Form">
 
         <h2>Sign in now!</h2>
-          <form>
+          <form method="post">
               <input type="email" name="email" placeholder="Enter your email" value={this.props.email} onChange={this.props.changeEmail}/><br/>
               <input type="password" name="password" placeholder="Pick a new password!" value={this.props.password} onChange={this.props.changePassword}/><br/>
 
